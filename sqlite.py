@@ -51,6 +51,6 @@ def insertar_producto(producto):
                 (producto.codigo, producto.nombre, producto.categoria, producto.stock, producto.precio))
     conn.commit()
 
-insertar_producto(prd_6)
+insertar_producto(prd_5)
 
 conn.close()
