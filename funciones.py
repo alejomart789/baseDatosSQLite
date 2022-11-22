@@ -18,8 +18,6 @@ def listar_usuarios():
 
     productos = cursor.fetchall()
 
-
-
     for p in productos:
         print(p)
 
